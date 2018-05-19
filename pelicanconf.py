@@ -47,8 +47,8 @@ LINKS = (("Ephemera", 'http://www.ephemera.net/'),
 # Social widget
 SOCIAL = (('linkedin', 'https://www.linkedin.com/in/ryan-rock-9a7430b6'),
           ('twitter', 'https://twitter.com/ralexanderrock'),
-          ('instagram','https://www.instagram.com/ralexanderrock/')
-          ('github', 'https://github.com/ralexanderrock'),)
+          ('instagram','https://www.instagram.com/ralexanderrock/'),
+          ('github', 'https://github.com/ralexanderrock'))
 
 # Menu items
 MENUITEMS = (('Archives', '/archives.html'),
