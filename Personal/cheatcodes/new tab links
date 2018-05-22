@@ -1,0 +1,3 @@
+Hyperlink in new window using Markdown:
+
+[LINK]('LINK_TITLE'){:href='LINKURL' target="_blank"}

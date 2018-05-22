@@ -1,0 +1,61 @@
+body > aside {
+	background-color:#334;
+	background-image: linear-gradient(30deg, #223 12%, transparent 12.5%, transparent 87%, #223 87.5%, #223),
+	linear-gradient(150deg, #223 12%, transparent 12.5%, transparent 87%, #223 87.5%, #223),
+	linear-gradient(30deg, #223 12%, transparent 12.5%, transparent 87%, #223 87.5%, #223),
+	linear-gradient(150deg, #223 12%, transparent 12.5%, transparent 87%, #223 87.5%, #223),
+	linear-gradient(60deg, #445 25%, transparent 25.5%, transparent 75%, #445 75%, #445), 
+	linear-gradient(60deg, #445 25%, transparent 25.5%, transparent 75%, #445 75%, #445);
+	background-size:80px 140px;
+	background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+}
+
+a {
+	font-weight:500;
+	color: #702351;
+}
+
+aside a:hover {
+	color: #702351;
+}
+
+a.btn {
+	background-color: #702351;
+}
+
+a:hover {
+	font-weight:500;
+	color: #D685B5;
+}
+
+a.btn:hover {
+	background-color: #D685B5;
+	color: #702351;
+}
+
+.tag-cloud a {
+	background-color: #702351;
+}
+
+.tag-cloud a:hover {
+	background-color: #D685B5;
+	color: #702351;
+}
+
+ul.social :hover {
+	color: #999999;
+}
+
+ul.social a.sc-instagram {
+  background:
+    radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%),
+    radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
+    linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+}
+
+
