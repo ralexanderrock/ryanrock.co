@@ -19,6 +19,7 @@ EXTRA_PATH_METADATA = {'extra/custom.css': {'path': 'static/custom.css'}}
 CUSTOM_CSS = 'static/custom.css'
 
 PLUGINS = ['pelican_vimeo']
+DISQUS_SITENAME = 'ryanrock'
 
 # URL settings(http://docs.getpelican.com/en/stable/settings.html#url-settings)
 ARTICLE_URL = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}.html'
