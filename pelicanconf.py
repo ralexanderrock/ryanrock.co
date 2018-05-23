@@ -10,6 +10,13 @@ SITELOGO = '/images/profile.jpg'
 SITEURL = 'http://www.ryanrock.co'
 
 COPYRIGHT_YEAR = '2018'
+
+CC_LICENSE = {
+    'name': 'Creative Commons Attribution-ShareAlike',
+    'version': '4.0',
+    'slug': 'by-sa'
+}
+
 TIMEZONE = 'America/Chicago'
 DEFAULT_LANG = u'en'
 
