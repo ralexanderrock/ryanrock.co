@@ -37,7 +37,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 THEME = "/home/rar/Utilities/pelican/pelican-themes/Flex"
-
+PYGMENTS_STYLE = 'monokai'
 MAIN_MENU = True
 
 # Blogroll

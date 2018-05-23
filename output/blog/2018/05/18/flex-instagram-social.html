@@ -6,7 +6,7 @@
 
     <link rel="stylesheet" type="text/css" href="http://www.ryanrock.co/theme/stylesheet/style.min.css">
 
-  <link rel="stylesheet" type="text/css" href="http://www.ryanrock.co/theme/pygments/github.min.css">
+  <link rel="stylesheet" type="text/css" href="http://www.ryanrock.co/theme/pygments/monokai.min.css">
   <link rel="stylesheet" type="text/css" href="http://www.ryanrock.co/theme/font-awesome/css/font-awesome.min.css">
 
     <link href="http://www.ryanrock.co/static/custom.css" rel="stylesheet">
@@ -100,19 +100,29 @@
   <div>
     <p>Some of you who use the Flex theme for Pelican may have noticed that the instagram social icon does not render nicely because it is not supported in the style.min.css file provided in the distribution. As a workaround (too lazy to fork and update the stylesheet properly) I found a nice version of the logo on codepen and modified it for insertion into custom.css file.</p>
 <p>If you decide that you want a similar instagram social, just insert the following in custom.css:</p>
-<div class="highlight"><pre><span></span>ul.social a.sc-instagram {
-  background:
-    radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%),
-    radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
-    radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
-    radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%),
-    radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%),
-    radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%),
-    radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
-    linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
-}
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="nt">ul</span><span class="p">.</span><span class="nc">social</span> <span class="nt">a</span><span class="p">.</span><span class="nc">sc-instagram</span> <span class="p">{</span>
+  <span class="k">background</span><span class="p">:</span>
+    <span class="nb">radial-gradient</span><span class="p">(</span><span class="kc">circle</span> <span class="n">farthest</span><span class="o">-</span><span class="n">corner</span> <span class="n">at</span> <span class="mi">35</span><span class="kt">%</span> <span class="mi">90</span><span class="kt">%</span><span class="p">,</span> <span class="mh">#fec564</span><span class="p">,</span> <span class="kc">transparent</span> <span class="mi">50</span><span class="kt">%</span><span class="p">),</span>
+    <span class="nb">radial-gradient</span><span class="p">(</span><span class="kc">circle</span> <span class="n">farthest</span><span class="o">-</span><span class="n">corner</span> <span class="n">at</span> <span class="mi">0</span> <span class="mi">140</span><span class="kt">%</span><span class="p">,</span> <span class="mh">#fec564</span><span class="p">,</span> <span class="kc">transparent</span> <span class="mi">50</span><span class="kt">%</span><span class="p">),</span>
+    <span class="nb">radial-gradient</span><span class="p">(</span><span class="n">ellipse</span> <span class="n">farthest</span><span class="o">-</span><span class="n">corner</span> <span class="n">at</span> <span class="mi">0</span> <span class="mi">-25</span><span class="kt">%</span><span class="p">,</span> <span class="mh">#5258cf</span><span class="p">,</span> <span class="kc">transparent</span> <span class="mi">50</span><span class="kt">%</span><span class="p">),</span>
+    <span class="nb">radial-gradient</span><span class="p">(</span><span class="n">ellipse</span> <span class="n">farthest</span><span class="o">-</span><span class="n">corner</span> <span class="n">at</span> <span class="mi">20</span><span class="kt">%</span> <span class="mi">-50</span><span class="kt">%</span><span class="p">,</span> <span class="mh">#5258cf</span><span class="p">,</span> <span class="kc">transparent</span> <span class="mi">50</span><span class="kt">%</span><span class="p">),</span>
+    <span class="nb">radial-gradient</span><span class="p">(</span><span class="n">ellipse</span> <span class="n">farthest</span><span class="o">-</span><span class="n">corner</span> <span class="n">at</span> <span class="mi">100</span><span class="kt">%</span> <span class="mi">0</span><span class="p">,</span> <span class="mh">#893dc2</span><span class="p">,</span> <span class="kc">transparent</span> <span class="mi">50</span><span class="kt">%</span><span class="p">),</span>
+    <span class="nb">radial-gradient</span><span class="p">(</span><span class="n">ellipse</span> <span class="n">farthest</span><span class="o">-</span><span class="n">corner</span> <span class="n">at</span> <span class="mi">60</span><span class="kt">%</span> <span class="mi">-20</span><span class="kt">%</span><span class="p">,</span> <span class="mh">#893dc2</span><span class="p">,</span> <span class="kc">transparent</span> <span class="mi">50</span><span class="kt">%</span><span class="p">),</span>
+    <span class="nb">radial-gradient</span><span class="p">(</span><span class="n">ellipse</span> <span class="n">farthest</span><span class="o">-</span><span class="n">corner</span> <span class="n">at</span> <span class="mi">100</span><span class="kt">%</span> <span class="mi">100</span><span class="kt">%</span><span class="p">,</span> <span class="mh">#d9317a</span><span class="p">,</span> <span class="kc">transparent</span><span class="p">),</span>
+    <span class="nb">linear-gradient</span><span class="p">(</span><span class="mh">#6559ca</span><span class="p">,</span> <span class="mh">#bc318f</span> <span class="mi">30</span><span class="kt">%</span><span class="p">,</span> <span class="mh">#e33f5f</span> <span class="mi">50</span><span class="kt">%</span><span class="p">,</span> <span class="mh">#f77638</span> <span class="mi">70</span><span class="kt">%</span><span class="p">,</span> <span class="mh">#fec66d</span> <span class="mi">100</span><span class="kt">%</span><span class="p">);</span>
+<span class="p">}</span>
 </pre></div>
-
+</td></tr></table>
 
 <p>I hope this finds you well. Happy hunting!</p>
   </div>
