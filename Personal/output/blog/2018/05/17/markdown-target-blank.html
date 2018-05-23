@@ -6,7 +6,7 @@
 
     <link rel="stylesheet" type="text/css" href="http://www.ryanrock.co/theme/stylesheet/style.min.css">
 
-  <link rel="stylesheet" type="text/css" href="http://www.ryanrock.co/theme/pygments/monokai.min.css">
+  <link rel="stylesheet" type="text/css" href="http://www.ryanrock.co/theme/pygments/github.min.css">
   <link rel="stylesheet" type="text/css" href="http://www.ryanrock.co/theme/font-awesome/css/font-awesome.min.css">
 
     <link href="http://www.ryanrock.co/static/custom.css" rel="stylesheet">
@@ -99,9 +99,9 @@
   <div>
     <p>I ran across a minor issue while setting up my blog that I'm sure some of you out there will find helpful. Markdown supposedly does not natively support changing the targets of hyperlinks. Comments that I found as recent as 2016 said as much. Perhaps that's changed since then, but I've been unable to track down the documentation which says how to do it. Long story short, there are two ways to do it.</p>
 <p>The ugly way of course is to write the link in html and allow it to eventually be rendered by the browser. The much neater way is to use the following:</p>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="highlight"><pre><span></span>[<span class="nt">LINK</span>](<span class="na">&#39;LINK_TITLE&#39;</span>){:href=&quot;LINKURL&quot; target=&quot;_blank&quot;}
+<div class="highlight"><pre><span></span>[LINK](&#39;LINK_TITLE&#39;){:href=&quot;LINKURL&quot; target=&quot;_blank&quot;}
 </pre></div>
-</td></tr></table>
+
 
 <p>That's it! Neat and simple the way we like it. Hope someone finds this of use. Cheers!</p>
   </div>
@@ -117,19 +117,6 @@
 
 
 
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-    var disqus_shortname = 'ryanrock';
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>
-        Please enable JavaScript to view comments.
-
-</noscript>
 </article>
 
     <footer>

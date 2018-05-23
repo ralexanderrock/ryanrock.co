@@ -37,10 +37,8 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 THEME = "/home/rar/Utilities/pelican/pelican-themes/Flex"
-PYGMENTS_STYLE = 'monokai'
-MAIN_MENU = True
 
-DISQUS_SITENAME = "ryanrock"
+MAIN_MENU = True
 
 # Blogroll
 LINKS = (("Ephemera", 'http://www.ephemera.net/'),

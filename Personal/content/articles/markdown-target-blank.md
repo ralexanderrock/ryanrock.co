@@ -8,7 +8,8 @@ I ran across a minor issue while setting up my blog that I'm sure some of you ou
 
 The ugly way of course is to write the link in html and allow it to eventually be rendered by the browser. The much neater way is to use the following:
 
-	#!md
-	[LINK]('LINK_TITLE'){:href="LINKURL" target="_blank"}
+```
+[LINK]('LINK_TITLE'){:href="LINKURL" target="_blank"}
+```
 
 That's it! Neat and simple the way we like it. Hope someone finds this of use. Cheers!
