@@ -1,16 +1,62 @@
 # README
 
-By: Ryan Rock
-Updated: 2018-5-18
+This is the public repository for my personal [website](http://www.ryanrock.co). I hope you enjoy this work and that it helps you set up your own site. Cheers!
 
-This is the public repository for my personal website. I hope you enjoy this work and that it helps you set up your own site. Cheers!
+## Build Locally
 
--R
+The easiest way to do this is in a Python [virtual environment](http://docs.python-guide.org/en/latest/dev/virtualenvs/). 
 
-## About the blog
+### Create a Virtual Environment
 
-I've had the idea to set up this site for a long time. Keep in mind it's mostly just ramblings that would float around my head or be otherwise blurted at strangers in inopportune settings if it weren't being shouted into the internet void. Not all of my writing is meant to be taken seriously - some is. 
+Once you have `virtualenv` installed, create a virtual environment to hold Pelican and its dependencies:
+
+    $ virtualenv .venv
+    $ source .venv/bin/activate
+
+This creates a virtual environment and then activates it. If you want to exit the virtual environment, type:
+
+    $ deactivate
+
+### Fork / Clone the Repo
+
+If you haven't already, clone your version of the repo:
+
+    $ git clone --recurse-submodules https://github.com/yourusername/repo/fork
+
+### Install Pelican & Dependancies
+
+Use `pip` to install the list of dependencies (including Pelican) into your virtual environment:
+
+    $ pip install -r requirements.txt
+
+### Generate the Website
+
+Now that the dependencies exists, we can build:
+
+    $ fab build
+
+This takes the Markdown files from the `content/` directory and generates static HTML pages inside the `output/` directory. That's it. No database required.
+
+### Preview the Website
+
+You can serve the generated site so it can be previewed in your browser:
+
+    $ fab serve
+
+And you should see the blog if you visit [http://localhost:8000](http://localhost:8000).
+
+## Blog Workflow
+
+If you're interested in writing a blog post to be hosted on my site, you need to:
+
+- [Fork](https://github.com/ralexanderrock/ryanrock.co//fork) the repository
+- Write a blog post using Markdown in the `content` directory
+- Push the changes to a topic branch, like `an-example-article`, on *your* fork of the repository
+- Make a [pull request](https://help.github.com/articles/using-pull-requests/) against the `source` branch
 
 ## License
+The source code for generation of the blog is under MIT License. Content is copyrighted under (Creative Commons Attribution-ShareAlike 4.0 International License)[http://creativecommons.org/licenses/by-sa/4.0/].
 
-All of my content is shared under the Creative Commons Attribution-ShareAlike 4.0 International license. Any material in this repository or on my website (pictures, audio, files, etc.) from other sources may fall under some other copyright. Please check with the sources of all material before using it to avoid problems. For example, you might check that the XKCD comics that I use in my blog still fall under Creative Commons Attribution-NonCommercial 2.5 License so that you're not infringing their copyright. 
+## Contact
+
+If you have any questions, you can [email](mailto:r@ryanrock.co) me.
