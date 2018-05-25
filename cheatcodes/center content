@@ -1,0 +1,5 @@
+No native center align support in Markdown, so do the following:
+
+<p style="text-align: center;">
+Content goes here.
+</p>
