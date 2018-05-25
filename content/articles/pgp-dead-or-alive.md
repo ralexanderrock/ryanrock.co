@@ -17,7 +17,7 @@ For those who place greater value in heavy-duty foil for it's hatmaking properti
 
 Some really respectable work is being done by people like [Moxie Marlinspike]('Moxie'){:href="https://moxie.org/about.html" target="_blank"}, a role model of mine, through projects such as Signal, Wickr, and countless others. But encrypted and/or ephemeral messaging is not a silver bullet. Even these tools aren't immune to vulnerability. Just this week Signal fell victim to a pretty severe vulnerability. Big kudos to the OpenWhisper team for getting it fixed in five hours though.
 
-<iframe  src="https://player.vimeo.com/video/270232223" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/270232223" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 Source: Ars Technica, courtesy of @hackancuba @iammandatory @ortegaalfredo @julianor
 
 People need well-built tools to encrypt their data independant of a third-party. That was the real value in PGP. We need a successor to PGP that and it needs to be modern, easy-to-use, and ubiquitous. It should be common for people to take sensitive messages or files and copy/paste/attach them into their messenger of choice. I think the number of people who need that capability is vastly underestimated. It's our job as developers and hobbyists to help build the tools to make that possible. 

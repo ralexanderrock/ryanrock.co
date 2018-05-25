@@ -7,7 +7,7 @@ SITENAME = u"Home"
 SITETITLE = AUTHOR
 SITESUBTITLE = ''
 SITELOGO = '/images/profile.jpg'
-SITEURL = 'http://www.ryanrock.co'
+SITEURL = ''
 
 COPYRIGHT_YEAR = '2018'
 
