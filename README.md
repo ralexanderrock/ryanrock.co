@@ -60,7 +60,7 @@ You can serve the generated site so it can be previewed in your browser:
 And you should see the blog if you visit [http://localhost:8000](http://localhost:8000).
 
 ## License
-The source code for generation of the blog is under MIT License. Content is copyrighted under (Creative Commons Attribution ShareAlike 4.0 International License)[http://creativecommons.org/licenses/by-sa/4.0/].
+The source code for generation of the blog is under MIT License. Content is copyrighted under [Creative Commons Attribution ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
 ## Contact
 
