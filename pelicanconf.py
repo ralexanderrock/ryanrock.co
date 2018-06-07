@@ -59,7 +59,8 @@ SOCIAL = (('linkedin', 'https://www.linkedin.com/in/ryan-rock-9a7430b6'),
           ('github', 'https://github.com/ralexanderrock'))
 
 # Menu items
-MENUITEMS = (('Archives', '/archives.html'),
+MENUITEMS = (('Quotes','/pages/quoteblog.html'),
+             ('Archives', '/archives.html'),
              ('Categories', '/categories.html'),
              ('Tags', '/tags.html'),)
 
