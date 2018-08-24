@@ -14,7 +14,7 @@ For years I've compiled index cards of quotes that have made an impression on me
 <!-- -->
 > Know thyself.
 <br>
-> - Oracle fo Delphi
+> - Oracle of Delphi
 
 <!-- -->
 > The unexamined life is not worth living.
@@ -37,7 +37,7 @@ For years I've compiled index cards of quotes that have made an impression on me
 > - Anon
 
 <!-- -->
-> Let the future tell the truth, and evaluate each one according to his works and accomplishments. The present is theirs; the future, for which I have really worked, is mine.
+> Let the future tell the truth and evaluate each one according to his works and accomplishments. The present is theirs; the future, for which I have really worked, is mine.
 <br>
 > - Nikola Tesla
 
@@ -180,7 +180,7 @@ For years I've compiled index cards of quotes that have made an impression on me
 > - John Dickenson
 
 <!-- -->
-> Concordia res parvea crescunt
+> Concordia res parvae crescunt
 <br>
 > - John Dickenson
 
@@ -200,9 +200,9 @@ For years I've compiled index cards of quotes that have made an impression on me
 > - George Orwell
 
 <!-- -->
-> In individuals, insanity is rare; but in groups, parties, ntions, and epochs, it is the rule.
+> In individuals, insanity is rare; but in groups, parties, nations, and epochs, it is the rule.
 <br>
-> -Freidrich Nietzsche
+> -Friedrich Nietzsche
 
 <!-- -->
 > Patriotism is a virtue of the vicious.

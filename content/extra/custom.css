@@ -58,4 +58,44 @@ ul.social a.sc-instagram {
     linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
 }
 
+footer .canary {
+    background-image: url(../images/canary.svg);
+    background-size: 30px 30px;
+    background-position: center center;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    text-align: center;
+}
+
+footer .canary:hover{
+    background-image: none;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    text-align: center;
+}
+
+footer .canary p{
+    opacity: 0;
+    font-size: 11px;
+    transition-property: opacity;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+    transition-delay: 0s;
+}
+
+footer .canary p:hover {
+    opacity: 1;
+    transition-duration: 0.5s;
+}
+
+
 

@@ -8,6 +8,12 @@ I consider myself a multi-disciplinarian and autodidact. My hobbies include deve
 
 ---
 
+## Contact
+
+Email: [r (at) ryanrock (dot) co]('r (at) ryanrock (dot) co'){:href="mailto:r@ryanrock.co" target="_blank"}
+
+---
+
 ## Donations
 
 If you liked any of my content feel free to throw some beer money my way. Cheers!

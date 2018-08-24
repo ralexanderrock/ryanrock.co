@@ -49,7 +49,8 @@ PYGMENTS_STYLE = 'monokai'
 MAIN_MENU = True
 
 # Blogroll
-LINKS = (("Ephemera", 'http://www.ephemera.net/'),
+LINKS = (("Terraformarium", 'http://www.terraformarium.com'),
+         ("Ephemera", 'http://www.ephemera.net/'),
          ('Juicebox', 'http://www.juicebox.club/'))
 
 # Social widget
@@ -67,4 +68,4 @@ MENUITEMS = (('Quotes','/pages/quoteblog.html'),
 DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
