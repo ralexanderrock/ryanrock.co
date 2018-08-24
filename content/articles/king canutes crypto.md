@@ -4,9 +4,9 @@ Category: cryptocurrency
 Tags: privacy, anonymity, cryptocurrency, cryptography, monero, zcash, shapeshift 
 Summary: There's an [ancient legend](https://en.wikipedia.org/wiki/King_Canute_and_the_tide) about a king named Canute that I drone on about to pretty much anyone who listens. I'll retell it here because the story's wisdom applies directly to the crypto-war already frothing between developers and their governments - the fight over truly private and anonymous currency.
 
-![Can't touch this!](/images/you-cant-touch-this.jpg)
-
 There's an [ancient legend](https://en.wikipedia.org/wiki/King_Canute_and_the_tide) about a king named Canute that I drone on about to pretty much anyone who listens. I'll retell it here because the story's wisdom applies directly to the crypto-war already frothing between developers and their governments - the fight over truly private and anonymous currency.[^1] 
+
+![Can't touch this!](/images/you-cant-touch-this.jpg)
 
 Canute had sat beside the sea and then, in front of his people, he commanded the tides not to rise. Sure as you'd expect the tides rose and wetted his throne. After which he exclaimed to his entourage "Let all men know how empty and worthless is the power of kings..." Not even kings can command the sea. The historicity of the story is surely a matter of debate, but that doesn't undermine the important philosophical truth to be found here: natural law supersedes all the laws of man. Period. Full stop.
 
