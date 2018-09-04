@@ -14,7 +14,7 @@
 
 
 
-  <meta name="google-site-verification" content="Uobq07TZ3Pa-dXzd1IFGuepGezx_Gk_SdCaQfTHcIQ4" />
+  <meta name="google-site-verification" content="mUIKMHFEAUvK3vL-7vS-47kQ6CGDuZUNom5WW7z9Hek" />
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -24,24 +24,21 @@
 
 
 <meta name="author" content="Ryan Rock" />
-<meta name="description" content="Some of you may have experienced a bug on my page, which quite literally has been buggin' me for the last few days. My social icons wouldn't load when initially visiting the website, but would load properly after going to another page or waiting a long time and then refreshing …" />
-<meta name="keywords" content="font awesome, cross origin resources, htaccess">
+<meta name="description" content="The Terraformarium site is now live! One of the features that I desparately wanted to include while getting that site up and running was a free and easy subscription form..." />
+<meta name="keywords" content="">
 <meta property="og:site_name" content="Home"/>
-<meta property="og:title" content="Font Awesome: Social Icons Don't Load"/>
-<meta property="og:description" content="Some of you may have experienced a bug on my page, which quite literally has been buggin' me for the last few days. My social icons wouldn't load when initially visiting the website, but would load properly after going to another page or waiting a long time and then refreshing …"/>
+<meta property="og:title" content="New Subscribe Feature"/>
+<meta property="og:description" content="The Terraformarium site is now live! One of the features that I desparately wanted to include while getting that site up and running was a free and easy subscription form..."/>
 <meta property="og:locale" content="en_US"/>
-<meta property="og:url" content="http://www.ryanrock.co/blog/2018/05/20/font-awesome-social-icons-dont-load.html"/>
+<meta property="og:url" content="http://www.ryanrock.co/blog/2018/09/03/new-subscribe-feature.html"/>
 <meta property="og:type" content="article"/>
-<meta property="article:published_time" content="2018-05-20 00:00:00-05:00"/>
+<meta property="article:published_time" content="2018-09-03 00:00:00-05:00"/>
 <meta property="article:modified_time" content=""/>
 <meta property="article:author" content="http://www.ryanrock.co/author/ryan-rock.html">
 <meta property="article:section" content="articles"/>
-<meta property="article:tag" content="font awesome"/>
-<meta property="article:tag" content="cross origin resources"/>
-<meta property="article:tag" content="htaccess"/>
 <meta property="og:image" content="/images/profile.jpg">
 
-  <title>Home &ndash; Font Awesome: Social Icons Don't Load</title>
+  <title>Home &ndash; New Subscribe Feature</title>
 
 </head>
 <body>
@@ -55,9 +52,8 @@
 
       <nav>
         <ul class="list">
-          <li><a href="http://www.ryanrock.co/pages/about.html#about">Bio</a></li>
-          <li><a href="http://www.ryanrock.co/pages/projects.html#projects">Projects</a></li>
-          <li><a href="http://www.ryanrock.co/pages/Resources.html#Resources">Resources</a></li>
+          <li><a href="http://www.ryanrock.co/projects.html#projects">Projects</a></li>
+          <li><a href="http://www.ryanrock.co/Resources.html#Resources">Resources</a></li>
 
           <li><a href="http://www.terraformarium.com" target="_blank">Terraformarium</a></li>
           <li><a href="http://www.ephemera.net/" target="_blank">Ephemera</a></li>
@@ -81,19 +77,21 @@
       <a href="http://www.ryanrock.co">    Home
 </a>
 
-      <a href="/pages/quoteblog.html">Quotes</a>
+      <a href="/bio.html">Biography</a>
+      <a href="/quoteblog.html">Quotes</a>
       <a href="/archives.html">Archives</a>
       <a href="/categories.html">Categories</a>
       <a href="/tags.html">Tags</a>
+      <a href="/subscribe.html">Subscribe</a>
 
 
     </nav>
 
 <article class="single">
   <header>
-    <h1 id="font-awesome-social-icons-dont-load">Font Awesome: Social Icons Don't Load</h1>
+    <h1 id="new-subscribe-feature">New Subscribe Feature</h1>
     <p>
-          Posted on Sun 20 May 2018 in <a href="http://www.ryanrock.co/category/articles.html">articles</a>
+          Posted on Mon 03 September 2018 in <a href="http://www.ryanrock.co/category/articles.html">articles</a>
 
 
     </p>
@@ -101,27 +99,11 @@
 
 
   <div>
-    <p>Some of you may have experienced a bug on my page, which quite literally has been buggin' me for the last few days. My social icons wouldn't load when initially visiting the website, but would load properly after going to another page or waiting a long time and then refreshing. The last couple days I've been ruling out possible causes - leading to many possible fixes none of which worked. I'm happy to say I finally narrowed it down, but finding a solution online proved challenging so I'm providing the fix here. Turns out it was a cross origin resource issue. It's fixed by adding some lines to the .htaccess file on the server.</p>
-<p>If you're having the same issue on your site, just add:</p>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
-2
-3
-4
-5</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="nt">&lt;FilesMatch</span> <span class="s">&quot;\.(ttf|otf|eot|woff)$&quot;</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;IfModule</span> <span class="s">mod_headers.c</span><span class="nt">&gt;</span>
-    <span class="nb">Header</span> set Access-Control-Allow-Origin <span class="s2">&quot;*&quot;</span>
-  <span class="nt">&lt;/IfModule&gt;</span>
-<span class="nt">&lt;/FilesMatch&gt;</span>
-</pre></div>
-</td></tr></table>
-
-<p>Depending on how you're hosting you may need to run "sudo a2enmod headers" and then restart the server. Happy Hunting!</p>
+    <p>The Terraformarium site is now live! One of the features that I desparately wanted to include while getting that site up and running was a free and easy subscription form that did not require me to switch to dynamic webpages (and all of the headaches that are associated with that) or pay a third-party. The solution that I chose was to embed a Google form which takes basic contact information and then have that data ported over to mailchimp using Zapier. It's quick and easy and I highly recommend it for other static site owners that don't require a highly refined end product.</p>
+<p>I've omitted the steps to complete such a feature, but if you're interested shoot me an email and I can whip up a new post. And make sure to subscribe!</p>
   </div>
   <div class="tag-cloud">
     <p>
-      <a href="http://www.ryanrock.co/tag/font-awesome.html">font awesome</a>
-      <a href="http://www.ryanrock.co/tag/cross-origin-resources.html">cross origin resources</a>
-      <a href="http://www.ryanrock.co/tag/htaccess.html">htaccess</a>
     </p>
   </div>
 
@@ -158,7 +140,17 @@ I have never received a legal inquiry which requires that contact not to be disc
 </p>    </footer>
   </main>
 
+<!-- Google Analytics -->
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-125043578-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
 
 
 

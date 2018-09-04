@@ -28,11 +28,13 @@ CUSTOM_CSS = 'static/custom.css'
 PLUGINS = ['pelican_vimeo']
 DISQUS_SITENAME = 'ryanrock'
 
+GOOGLE_SITE_VERIFICATION = 'mUIKMHFEAUvK3vL-7vS-47kQ6CGDuZUNom5WW7z9Hek'
+
 # URL settings(http://docs.getpelican.com/en/stable/settings.html#url-settings)
 ARTICLE_URL = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}.html'
 ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}.html'
-PAGE_URL = 'pages/{slug}.html'
-PAGE_SAVE_AS = 'pages/{slug}.html'
+PAGE_URL = '{slug}.html'
+PAGE_SAVE_AS = '{slug}.html'
 
 DEFAULT_PAGINATION = 6
 DEFAULT_CATEGORY = 'News'
@@ -60,10 +62,12 @@ SOCIAL = (('linkedin', 'https://www.linkedin.com/in/ryan-rock-9a7430b6'),
           ('github', 'https://github.com/ralexanderrock'))
 
 # Menu items
-MENUITEMS = (('Quotes','/pages/quoteblog.html'),
+MENUITEMS = (('Biography', '/bio.html'),
+             ('Quotes','/quoteblog.html'),
              ('Archives', '/archives.html'),
              ('Categories', '/categories.html'),
-             ('Tags', '/tags.html'),)
+             ('Tags', '/tags.html'),
+             ('Subscribe', '/subscribe.html'))
 
 DEFAULT_PAGINATION = False
 

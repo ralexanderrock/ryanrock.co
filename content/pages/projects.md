@@ -10,7 +10,7 @@ Projects I am developing in my free time are [Terraformarium]('Terraformarium'){
 
 ### [Terraformarium]('Terraformarium'){:href="http://www.terraformarium.com" target="_blank"}
 
-The Terraformarium is an ultra-cold vacuum chamber designed to simulate surface conditions on Mars. I will be using this Martian terrarium to culture various lichens with the hope that some may be able to grow even under such adverse conditions. I hope that the project inspires others to think sersiously about terraforming technologies and martian colonization, and engenders greater enthusiasm for synthetic astrobiology. Updates on the project will be available through the website.
+The Terraformarium is an ultra-cold vacuum chamber designed to simulate surface conditions on Mars. I will be using this Martian terrarium to culture various lichens with the hope that some may be able to grow even under such adverse conditions. I hope that the project inspires others to think seriously about terraforming technologies and martian colonization, and engenders greater enthusiasm for synthetic astrobiology. Updates on the project will be available through the website.
 
 ### [Ephemera]('Ephemera'){:href="http://www.ephemera.net" target="_blank"}
 

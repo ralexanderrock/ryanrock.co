@@ -3,9 +3,9 @@ Date: 2018-8-12
 Slug: life-update-2018-08-12
 Tags: life update, colorado, lichens, hiking, camping, terraformarium
 Category: terraformarium
-Summary: It's clearly been a while since my last post. A Lot has happened since. As many of you know I get some wacky ideas pretty regularly, and the time since my last post has been no exception. I've also just returned from a life-changing camping trip in Colorado. 
+Summary: It's clearly been a while since my last post. A lot has happened since. As many of you know I get some wacky ideas pretty regularly, and the time since my last post has been no exception. I've also just returned from a life-changing camping trip in Colorado. 
 
-It's clearly been a while since my last post. A Lot has happened since. As many of you know I get some wacky ideas pretty regularly, and the time since my last post has been no exception. I've also just returned from a life-changing camping trip in Colorado. 
+It's clearly been a while since my last post. A lot has happened since. As many of you know I get some wacky ideas pretty regularly, and the time since my last post has been no exception. I've also just returned from a life-changing camping trip in Colorado. 
 
 #Terraformarium
 

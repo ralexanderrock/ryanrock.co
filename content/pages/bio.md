@@ -1,6 +1,7 @@
 Title: Bio
 Date: 2018-05-16
-Slug: about
+Slug: bio
+Status: hidden
 
 I am a chemical engineering graduate from the University of Illinois at Chicago. I work as an international trade analyst at Rock Trade Law LLC and assist with the day to day operations of the law firm. However, I look forward to continuing my pursuit of an academic career and hope to research the intersection of industrial process controls and cybersecurity.
 
