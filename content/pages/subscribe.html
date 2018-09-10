@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Subscribe</title>
+	<meta name="slug" content="subscribe" />
+        <meta name="status" content="hidden" />
+    </head>
+
+    <body>
+<div style="width: 80%; margin: 0 auto;">
+        	<br><br>For regular updates and alerts about new blog posts, please subscribe to my mailing list.<br><br>
+        	<form name="subscribe-form">
+	        	<div class="indicates-required pull-right"><i><span class="asterisk">*</span> indicates required</i></div>
+	
+	        	<div>
+	            		<label>Email</label><span class="asterisk">*</span><br>
+	            		<input type="text" name="Email" placeholder="Email"/>
+	        	</div><br>
+	
+		        <div>
+		        	<label>Name</label><br>
+	        		<input type="text" name="Name" placeholder="Name"/>
+	        	</div><br>
+	
+ 	       		<button type="submit" id="submit-form">Submit</button>
+		</form>
+</div>
+		<script type="text/javascript">	
+			const scriptURL = 'https://script.google.com/macros/s/AKfycbwDtpJfoLVzmy_lPpl40-ypio8zYkeepS6apUt7FmcszYYBkQ/exec'
+
+			const redirectUrl = '/subscribe-success.html'
+
+			const form = document.forms['subscribe-form']
+
+			form.addEventListener('submit', e=> {
+        			// Prevent form submission
+        			e.preventDefault()
+
+			fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      				.then(response => {console.log('Success!', response),
+					window.location.href = redirectUrl;})
+      				.catch(error => console.error('Error!', error.message))
+        		})
+		</script>
+	</body>
+</html>

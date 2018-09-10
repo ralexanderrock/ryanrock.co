@@ -22,8 +22,13 @@ DEFAULT_LANG = u'en'
 
 PATH = 'content'
 STATIC_PATHS = ['images', 'extra']
-EXTRA_PATH_METADATA = {'extra/custom.css': {'path': 'static/custom.css'}}
+EXTRA_PATH_METADATA = {
+    'extra/custom.css': {'path': 'static/custom.css'},
+    'extra/form.css': {'path': 'static/form.css'}
+    }
+
 CUSTOM_CSS = 'static/custom.css'
+FORM_CSS = 'static/form.css'
 
 PLUGINS = ['pelican_vimeo']
 DISQUS_SITENAME = 'ryanrock'
