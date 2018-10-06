@@ -256,6 +256,11 @@ For years I've compiled index cards of quotes that have made an impression on me
 ### Miscellaneous
 
 <!-- -->
+> If you're too deep in the hole, keep digging to the other side.
+<br>
+> - Anon
+
+<!-- -->
 > I am Shutruck Nakhunte, king of Anshand and Susa, sovereign of the land of Elam. By the command of Inshushinak, I destroyed Sippar, took the stele of Niran-Sin, and brought it back to Elam, where I erected it as an offering to my god, Inshushinak.
 <br>
 > - Shutruck Nakhunte 

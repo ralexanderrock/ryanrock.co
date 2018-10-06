@@ -51,7 +51,7 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-THEME = "/home/rar/Utilities/pelican/pelican-themes/Flex"
+THEME = "./theme"
 PYGMENTS_STYLE = 'monokai'
 MAIN_MENU = True
 
@@ -67,11 +67,8 @@ SOCIAL = (('linkedin', 'https://www.linkedin.com/in/ryan-rock-9a7430b6'),
           ('github', 'https://github.com/ralexanderrock'))
 
 # Menu items
-MENUITEMS = (('Biography', '/bio.html'),
+MENUITEMS = (('Biography', '/biography.html'),
              ('Quotes','/quoteblog.html'),
-             ('Archives', '/archives.html'),
-             ('Categories', '/categories.html'),
-             ('Tags', '/tags.html'),
              ('Subscribe', '/subscribe.html'))
 
 DEFAULT_PAGINATION = False
