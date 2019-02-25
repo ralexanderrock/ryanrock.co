@@ -24,7 +24,8 @@ PATH = 'content'
 STATIC_PATHS = ['images', 'extra', 'articles', 'pages']
 EXTRA_PATH_METADATA = {
     'extra/custom.css': {'path': 'static/custom.css'},
-    'extra/form.css': {'path': 'static/form.css'}
+    'extra/form.css': {'path': 'static/form.css'},
+    'extra/404.shtml': {'path': '404.shtml'}
     }
 
 CUSTOM_CSS = 'static/custom.css'
