@@ -9,7 +9,7 @@ SITESUBTITLE = ''
 SITELOGO = '/images/profile.jpg'
 SITEURL = ''
 
-COPYRIGHT_YEAR = '2018'
+COPYRIGHT_YEAR = '2019'
 
 CC_LICENSE = {
     'name': 'Creative Commons Attribution-ShareAlike',
@@ -21,7 +21,7 @@ TIMEZONE = 'America/Chicago'
 DEFAULT_LANG = u'en'
 
 PATH = 'content'
-STATIC_PATHS = ['images', 'extra']
+STATIC_PATHS = ['images', 'extra', 'articles', 'pages']
 EXTRA_PATH_METADATA = {
     'extra/custom.css': {'path': 'static/custom.css'},
     'extra/form.css': {'path': 'static/form.css'}
@@ -56,8 +56,8 @@ PYGMENTS_STYLE = 'monokai'
 MAIN_MENU = True
 
 # Blogroll
-LINKS = (("Terraformarium", 'http://www.terraformarium.com'),
-         ("Ephemera", 'http://www.ephemera.net/'),
+LINKS = (("Ephemera", 'http://www.ephemera.net/'),
+         ("Terraformarium", 'http://www.terraformarium.com'),
          ('Juicebox', 'http://www.juicebox.club/'))
 
 # Social widget

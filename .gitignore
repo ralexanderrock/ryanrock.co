@@ -1,4 +1,6 @@
-#Ignore Server Access Information
 Makefile
 webservkey.pem
-cheatcodes
+output/
+cheatcodes/
+__pycache__/
+*.pyc
